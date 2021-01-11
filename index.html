@@ -7,9 +7,36 @@
     <title>Scafe</title>
     <meta name="description" content="Scafe" />
     <meta name="author" content="Max Kirschning" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylecheets/tailwind.css" />
+    <link rel="stylesheet" href="assets/stylecheets/main.css" />
   </head>
 
   <body>
-    hi@scafe.io
+    <div class="bg-local bg-cover bg-center w-screen h-screen" style="background-image: url(assets/img/background.jpg)">
+      <div class="min-h-screen flex items-center justify-center text-center">
+        <div class="max-w-md w-full space-y-5">
+          <h1 class="mt-6 text-center text-5xl font-extrabold text-white">
+            Steigere Deine Performance mit <span class="text-red-500">scafe.</span>
+          </h1>
+          <a
+            class="py-2 px-4 bg-red-500 hover:bg-red-700 text-white text-lg font-medium rounded-md border border-transparent inline-flex"
+            href="mailto:hi@scafe.io"
+          >
+            <span>Say Hi</span>
+            <svg
+              class="w-5 h-5 ml-2 mt-1"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
